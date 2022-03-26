@@ -30,6 +30,7 @@ header a {
 
 header nav {
     margin: 10px;
+    width: 500px;
 }
 
 header nav ul {
@@ -89,10 +90,14 @@ justify-content: space-evenly;
 }
 
 .run-buddy img {
-    width: 50%;
+    width: 650px;
+    height: 600px;
+
     display: flex;
     justify-content: center;
     margin: 35px auto 35px auto;
+    border-radius: 30px;
+    ;
 }
 
 .run-buddy img:hover {
@@ -107,10 +112,11 @@ justify-content: space-evenly;
 }
 
 .horiseon img {
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: center;
-    margin: 35px auto 35px auto;                                                                                         
+    margin: 35px auto 35px auto;
+    border-radius: 30px;                                                                                        
 }
 .horiseon img:hover {
     opacity: 0.5;
