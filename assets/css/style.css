@@ -96,6 +96,7 @@ justify-content: space-evenly;
 
 .run-buddy {
     position: relative;
+    
 }
 
 .run-buddy img {
@@ -115,10 +116,11 @@ justify-content: space-evenly;
     color: black;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    /* position:absolute;
+    
+    position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
 }
 
 .horiseon img {
