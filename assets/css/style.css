@@ -1,0 +1,117 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* Header starts */
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    height: 155px;
+    top: 0;
+    background-image:url(../images/4490438.jpg);
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 20px;
+    font-size: 40px;
+    color: white;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;;
+}
+
+header nav {
+    margin: 10px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+header nav ul li a:hover {
+    color: grey;
+}
+
+/* Header ends */
+
+/* About Me starts */
+
+.section-title {
+    display: flex;
+    justify-content: center;
+     border-bottom: 3px solid #447e58;
+     border-width: 5px;
+     width: 30%;
+    margin: 35px auto 35px auto;
+    padding-bottom: 10px;
+}
+
+.my-intro {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.my-intro p {
+    width: 40%;
+    text-align: left;
+    line-height: 2;
+    color: #788B9A;
+    display: flex;
+    align-items: center;
+}
+
+.my-intro img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Contact me starts */
+
+address {
+display: flex;
+justify-content: space-evenly;
+}
+
+.run-buddy img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 35px auto;
+}
+
+.run-buddy img:hover {
+    opacity: 0.5;
+}
+
+.run-buddy-text {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.horiseon img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 35px auto 35px auto;                                                                                         
+}
+.horiseon img:hover {
+    opacity: 0.5;
+}
