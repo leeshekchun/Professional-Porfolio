@@ -86,14 +86,9 @@ justify-content: space-evenly;
     height: 250px;
     border-radius: 50%;
 }
+/*About Me ends */
 
-/* Contact me starts */
-
-address {
-display: flex;
-justify-content: space-evenly;
-}
-
+/* My Project Starts */
 .run-buddy {
     position: relative;
     
@@ -113,14 +108,18 @@ justify-content: space-evenly;
 }
 
 .run-buddy-text {
-    color: black;
+    color: white;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    
+    font-family:'Impact Bold';
+    font-size: 30px;
     position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.horiseon {
+    position: relative;
 }
 
 .horiseon img {
@@ -129,14 +128,48 @@ justify-content: space-evenly;
     display: flex;
     justify-content: center;
     margin: 35px auto 35px auto;
-    border-radius: 30px;                                                                                        
+    border-radius: 30px;
+                                                                                        
 }
 .horiseon img:hover {
     opacity: 0.5;
 }
 
-@media screen and (max-width: 850px) {
-    .contactme {
-        width: 300px;
+.horiseon-text {
+    color: white;
+    font-weight: bold;
+    font-family:'Impact Bold';
+    font-size: 15px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* My project ends */
+
+/* Contact me starts */
+
+address {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+.contactme {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Contact me ends */
+
+/*Screen size 420px max*/
+@media screen and (max-width: 420px) {
+    header {
+        height: 200px;
+    }
+    .run-buddy-text{
+        font-size: 15px;
+    }
+    .horiseon-text {
+        font-size: 7px;
     }
 }
